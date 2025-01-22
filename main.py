@@ -9,7 +9,7 @@ from parse import parse_with_ollama
 
 # Streamlit UI
 st.title("AI Web Scraper")
-url = st.text_input("Enter Website URL")
+url = st.text_input("https://www.mscdirect.com")
 
 # Step 1: Scrape the Website
 if st.button("Scrape Website"):
